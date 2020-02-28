@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+	<title>Principios da analise exploratoria de dados</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Principios da analise exploratoria de dados | Ciencia dos dados</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Principios da analise exploratoria de dados" />
+<meta name="author" content="Fabio Polini" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.(Behrens, 1997)" />
+<meta property="og:description" content="A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.(Behrens, 1997)" />
+<link rel="canonical" href="fabiopolini.github.io/Analise%20exploratoria%20de%20dados/principios-da-analise-exploratoria-de-dados/" />
+<meta property="og:url" content="fabiopolini.github.io/Analise%20exploratoria%20de%20dados/principios-da-analise-exploratoria-de-dados/" />
+<meta property="og:site_name" content="Ciencia dos dados" />
+<script type="application/ld+json">
+{"@type":"Article","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"fabiopolini.github.io/siteicon.png"},"name":"Fabio Polini"},"headline":"Principios da analise exploratoria de dados","url":"fabiopolini.github.io/Analise%20exploratoria%20de%20dados/principios-da-analise-exploratoria-de-dados/","author":{"@type":"Person","name":"Fabio Polini"},"description":"A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.(Behrens, 1997)","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+	<link type="application/atom+xml" rel="alternate" href="fabiopolini.github.io/feed.xml" title="Ciencia dos dados" />
+
+	<link rel="stylesheet"
+		  href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/assets/images/touch-icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+
+	
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		tex2jax: {
+			inlineMath: [['$','$'], ['\\(','\\)']],
+    		processEscapes: true
+  		}
+	});
+    </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+			type="text/javascript">
+
+	</script>
+
+
+</head>
+
+<body>
+
+<header>
+    <h1>
+        <a href="/"><img src="/assets/images/emblem.svg" width="40" height="40"
+                                           alt="Ciencia dos dados logo"></a>
+        Fabio Polini
+        <button type="button" class="open-nav" id="open-nav"></button>
+    </h1>
+
+    <form action="/search/" method="get">
+        <input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+        <input type="submit" value="Search" style="display: none;">
+    </form>
+    <nav class="full-navigation" >
+    <ul>
+        <li class="nav-item top-level ">
+            
+            <a href="/">Bem vindo</a>
+        </li>
+    </ul>
+
+    <ul>
+        
+        
+        <li class="nav-item top-level current">
+            
+            <a href="/Analise%20exploratoria%20de%20dados/principios-da-analise-exploratoria-de-dados/">Analise exploratoria de dados</a>
+            <ul>
+                
+                <li class="nav-item current"><a
+                        href="/Analise%20exploratoria%20de%20dados/principios-da-analise-exploratoria-de-dados/">Principios da analise exploratoria de dados</a></li>
+                
+            </ul>
+        </li>
+        
+    </ul>
+
+    <ul>
+        <li class="nav-item top-level ">
+            
+            <a href="/changelog/">Change Log</a>
+        </li>
+    </ul>
+</nav>
+</header>
+
+<section class="main">
+    <div class="page-header">
+        <h2>Analise exploratoria de dados</h2>
+        <h3>Principios da analise exploratoria de dados</h3>
+    </div>
+    <article class="content">
+        <blockquote><p>A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.</p><cite><a class="citation" href="#aed">(Behrens, 1997)</a></cite></blockquote>
+
+
+    </article>
+</section>
+
+<script>
+	document.getElementById("open-nav").addEventListener("click", function () {
+		document.body.classList.toggle("nav-open");
+	});
+</script>
+</body>
+</html>
