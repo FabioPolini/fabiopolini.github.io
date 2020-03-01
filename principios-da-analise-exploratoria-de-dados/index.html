@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+	<title>Principios da analise exploratoria de dados</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Principios da analise exploratoria de dados | Ciencia dos dados</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Principios da analise exploratoria de dados" />
+<meta name="author" content="Fabio Polini" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.(Behrens, 1997)" />
+<meta property="og:description" content="A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.(Behrens, 1997)" />
+<link rel="canonical" href="http://localhost:4000/principios-da-analise-exploratoria-de-dados/" />
+<meta property="og:url" content="http://localhost:4000/principios-da-analise-exploratoria-de-dados/" />
+<meta property="og:site_name" content="Ciencia dos dados" />
+<script type="application/ld+json">
+{"@type":"Article","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"},"name":"Fabio Polini"},"headline":"Principios da analise exploratoria de dados","url":"http://localhost:4000/principios-da-analise-exploratoria-de-dados/","author":{"@type":"Person","name":"Fabio Polini"},"description":"A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.(Behrens, 1997)","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ciencia dos dados" />
+
+	<link rel="stylesheet"
+		  href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/assets/images/touch-icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+
+	
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		tex2jax: {
+			inlineMath: [['$','$'], ['\\(','\\)']],
+    		processEscapes: true
+  		}
+	});
+    </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+			type="text/javascript">
+
+	</script>
+
+
+</head>
+
+<body>
+
+<header>
+    <h1>
+        <a href="/"><img src="/assets/images/emblem.svg" width="40" height="40"
+                                           alt="Ciencia dos dados logo"></a>
+        Fabio Polini
+        <button type="button" class="open-nav" id="open-nav"></button>
+    </h1>
+
+    <form action="/search/" method="get">
+        <input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+        <input type="submit" value="Search" style="display: none;">
+    </form>
+    <nav class="full-navigation" >
+    <ul>
+        <li class="nav-item top-level ">
+            
+            <a href="/">Bem vindo</a>
+        </li>
+    </ul>
+
+    <ul>
+        
+        
+        <li class="nav-item top-level current">
+            
+            <a href="/principios-da-analise-exploratoria-de-dados/">Analise exploratoria de dados</a>
+            <ul>
+                
+                <li class="nav-item current"><a
+                        href="/principios-da-analise-exploratoria-de-dados/">Principios da analise exploratoria de dados</a></li>
+                
+            </ul>
+        </li>
+        
+    </ul>
+
+    <ul>
+        <li class="nav-item top-level ">
+            
+            <a href="/changelog/">Change Log</a>
+        </li>
+    </ul>
+</nav>
+</header>
+
+<section class="main">
+    <div class="page-header">
+        <h2>Analise exploratoria de dados</h2>
+        <h3>Principios da analise exploratoria de dados</h3>
+    </div>
+    <article class="content">
+        <blockquote><p>A análise exploratória de dados (EDA) é uma tradição estatística bem estabelecida que fornece ferramentas conceituais e computacionais para descobrir padrões para promover o desenvolvimento e refinamento de hipóteses. Essas ferramentas e atitudes complementam o uso de testes de significância e hipótese utilizados na análise confirmatória de dados (CDA). Embora a EDA complemente e não substitua o CDA, o uso de CDA sem EDA raramente é garantido. Mesmo quando teorias bem especificadas são mantidas, a EDA ajuda a interpretar os resultados da CDA e pode revelar padrões inesperados ou enganosos nos dados.</p><cite><a class="citation" href="#aed">(Behrens, 1997)</a></cite></blockquote>
+
+<p>Comeco aqui com uma percepcao triste sobre esse tema: quando acompanho artigos pela internet, tutoriais, estudos de caso e etc., o que mais vejo eh quase que uma receita de bolo. A grande maioria utiliza uma sequencia que ja esta bem estabelecida:</p>
+
+<ol>
+  <li>Fazer uma hipoteses / Definir um problema / “Fazer a pergunta correta”</li>
+  <li>Coletar os dados</li>
+  <li>Trabalhar esses dados - normalizacao, limpeza, trabalhar as “features”, fazer alguma engenharia</li>
+  <li>Criar um modelo - modelo esse que iria resolver o problema do item 1, utilizando os dados do item 3</li>
+  <li>Enfim, o resultado</li>
+</ol>
+
+<p>Eh obvio que o que esta acima eh uma versao bem simploria, mas os passos geralmente sao esses.</p>
+
+<p>Geralmente vejo exemplos em diversos sites especializados em ciencia dos dados resolvendo tudo isso, como uma receita de bolo, em nao mais que 20 a 30 minutos. Eh claro que os dados apresentados sao simples, normalmente um dataset minusculo, mas o foco principal eh sempre nos modelos, no algoritimo utilizado e nao na analise dos dados, ou seja, voce nao atua como um “cientista” tentando extrair cada conhecimento possivel sobre os dados e saber o que significa cada possivel “feature” com profundidade.</p>
+
+<p>Se voce for trabalhar com ciencia dos dados, nao como um consultor, mas como um empregado que ira atuar no dia a dia da empresa, saber tudo sobre cada feature de maneira profunda te torna um “cientista”. Se voce tem pouco conhecimento sobre o que signifca os dados que voce esta trabalhando, voce ainda eh um programador. Por exemplo, seria possivel descobrir quantas centenas de features se relacionam com uma especifica do seu dataset, sem utilizar as informacoes disponiveis no mesmo. Quantos de voces buscam sobre artigos academicos ao trabalhar com determinado dataset para encontrar “features” que possam explicar tal coisa?</p>
+
+<p>Como empregado numa empresa, gastar semanas, meses, ou anos aprendendo sobre os “dados da empresa” eh extremamente util e viavel a medio e longo prazo. Porem muitas empresas ainda tratam o departamento de “ciencia dos dados” como um hibrido entre uma equipe de desenvolvedores e uma de pesquisadores.</p>
+
+<p>Tecnicas a aplicadas a desenvolvimento agil, SCRUM e etc. sao colocados como modelo de trabalho, modelo esse que pode nao funcionar. Por outro lado, se deixar para o pessoal escolher como irao trabalhar…pode nao funcionar tambem.</p>
+
+<p>O fato eh que ciencia dos dados tem a matematica como principal pilar- algebra, estatistica, probabilidade. Isto cria o terreno para que possamos trabalhar os dados. Mas explorar os dados requer senso investigativo, criativo e talvez filosofico. Se voce quer ser um cientista, seja bom em matematica e bom em filosofia.</p>
+
+<p>E por isso fico um pouco triste quando leio o que esta na internet: Utilizam pouco o lado “investigativo” ao trabalhar com os dados. Gostaria de ver um turorial de como predizer tal coisa, que demorasse 1 mes para analisar e ser resolvido, nao 30 minutos.</p>
+
+<blockquote>
+  <p>Eh importante entender o que você deve fazer antes de aprender a medir o quão bem você parece ter feito isso - J. W. Tukey</p>
+</blockquote>
+
+<p>Eis um grande problema: Como podemos medir “o quao bem voce parece ter feito isso”? Confrontando com o resultados? Estando dentro da margem de erro? Imagine que voce tem uma boa analise dos dados, mas tem um KPI mal elaborado? Ou entao num outro exemplo, se passar pelo KPI, segnifica que a anlise eh tao boa quanto o KPI ou tao ruim?</p>
+
+<p>Nao seria mais importante aprender sobre os dados para depois tirar conclusoes? Talvez isso levasse a uma compreensao bem mais profunda e util sobre os dados, do que simplesmente definir um problema e utilizar tao e somente so o necessario para resolve-lo? Quem sabe ao longo do tempo saberemos melhor.</p>
+
+<p>Numa universidade ou centros de pesquisa, a “analise dos dados” coletados para a finalidade da pesquisa, independente da sua natureza, eh bem mais ampla, com mais liberdade para coletar e gerar esses dados. Se voce trabalha numa empresa com carater comercial e quer descobrir um material novo que possa substituir, por exemplo, o algodao, voce teria mais liberdade de pesquisar isso se houver um entendimento do que eh uma pesquisa. Isso seria dificl numa empresa “tradicional”, ja que a “ ciencia dos dados” sera frequentemente utilizada para aumentar o lucro. Isso estrangula o potencial de um “cientista do dados”. Muito improvavel o departamento de vendas ira esperar, numa primeira abordagem, de seis a nove meses para redefinir o que vender, para quem vender e como vender. Eh bom provavel que voce utilize somente o minimo necessario para resolver isso em tres meses. E bastante provavel tambem que o resultado pareca bom. E tambem bem provavel que alguem conseguiria chegar no mesmo resultado apenas analisando como as coisas acontecem na empresa, utilizando “ciencia dos dados” de maneira empririca, ou seja, sem a necessidade de todo esse “glamour”.</p>
+
+
+    </article>
+</section>
+
+<script>
+	document.getElementById("open-nav").addEventListener("click", function () {
+		document.body.classList.toggle("nav-open");
+	});
+</script>
+</body>
+</html>
